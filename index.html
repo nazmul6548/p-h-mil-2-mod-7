@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>milestone 2 module 7</title>
+    <link rel="stylesheet" href="style.css">
+
+
+<style>
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+
+    }
+    .full-box{
+        display: flex;
+        border: 1px solid red;
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .left-side{
+        max-width: 30%;
+        /* border: 1px solid blue; */
+    }
+
+
+
+    @media  screen and (max-width:576px){
+        .container{
+            max-width: 100%;
+            ::selection{
+                background-color: yellowgreen;
+            }
+            /* box-sizing: border-box; */
+        }
+    }
+        .full-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: start;
+            
+        }
+        .left-side{
+            height: auto;
+            max-width: 100%;
+            border: 1px solid red;
+        }
+        .right-side{
+            border: 1px solid red;
+    }
+    .many-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-rule-color: 1px solid red;
+    }
+    .number-1{
+         background-color: aquamarine;
+         max-width: 200px;
+         height: 200px;
+         border: 1px solid red;
+    }
+    ul li{
+        list-style: none;
+        background-color: aqua;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20PX;
+    }
+    .many-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .many-div ul{
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        
+        row-gap: 50px;
+        column-gap: 50px;
+        
+    }
+
+</style>
+</head>
+<body>
+    <div class="container full-box">
+        <div class="left-side">
+            <h1>my name is nazmul islam jewel</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat cupiditate nostrum quam corporis aperiam ea nulla voluptatibus? Numquam voluptatibus labore quos molestias veritatis! Iusto, fugiat a! Placeat distinctio nesciunt illum quod, amet consequatur rem.</p>
+        </div>
+        <div class="right-side">
+            <h1>my name is nazmul islam jewel</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, tenetur.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <H1 style="text-align: center;">calendar 2024</H1>
+        <div class="many-div">
+            
+           <ul>
+            <li>sun</li>
+            <li>mon</li>
+            <li>tue</li>
+            <li>wed</li>
+            <li>thu</li>
+            <li>fri</li>
+            <li>sat</li>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+            
+           </ul>
+        </div>
+    </div>
+</body>
+</html>
