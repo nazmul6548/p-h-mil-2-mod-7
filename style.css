@@ -1,0 +1,33 @@
+.my-img img{
+    max-width: 100%;
+    /* height: 100vh; */
+   height: auto;
+   
+}
+.all-inall{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8px;
+   
+    
+    
+}
+.all-img--text{
+    border: 2px solid #000;
+    text-align: center;
+    border-radius: 10px;
+}
+.all-img--text img{
+    width: 100%;
+    border-radius: 10px;
+    /* border: 2px solid #000; */
+    height: 80%;
+}
+
+
+@media screen and (max-width:576px) {
+    .all-inall{
+        display: flex;
+        flex-direction: column;
+    }
+}

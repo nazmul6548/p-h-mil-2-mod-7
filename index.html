@@ -28,15 +28,6 @@
 
 
 
-    @media  screen and (max-width:576px){
-        .container{
-            max-width: 100%;
-            ::selection{
-                background-color: yellowgreen;
-            }
-            /* box-sizing: border-box; */
-        }
-    }
         .full-box{
             display: flex;
             flex-direction: column;
@@ -73,7 +64,9 @@
         align-items: center;
         justify-content: center;
         font-size: 20PX;
+        font-weight: 800;
     }
+  
     .many-div{
         display: flex;
         align-items: center;
@@ -88,11 +81,22 @@
         column-gap: 50px;
         
     }
+    
+    @media  screen and (max-width:576px){
+        .container{
+            max-width: 100%;
+            ::selection{
+                background-color: yellowgreen;
+            }
+            /* box-sizing: border-box; */
+        
+    }
+}
 
 </style>
 </head>
 <body>
-    <div class="container full-box">
+    <!-- <div class="container full-box">
         <div class="left-side">
             <h1>my name is nazmul islam jewel</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat cupiditate nostrum quam corporis aperiam ea nulla voluptatibus? Numquam voluptatibus labore quos molestias veritatis! Iusto, fugiat a! Placeat distinctio nesciunt illum quod, amet consequatur rem.</p>
@@ -150,6 +154,51 @@
             <li>31</li>
             
            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="my-img">
+            <!-- <img src="./img/pexels-asmaa-19514473.jpg" alt=""> -->
+        </div>
+    </div>
+    <div class="container all-inall">
+        <div class="all-img--text">
+            <img src="./img/pexels-asmaa-19514473.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque fugiat nostrum voluptatem distinctio? Provident dolorem soluta eos sunt aliquid.</p>
+        </div>
+        <div class="all-img--text">
+            <img src="./img/pexels-hatice-baran-19770768.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p>
+        </div>
+        <div class="all-img--text">
+            <img src="./img/pexels-josh-hild-13972469.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p>
+        </div>
+        <div class="all-img--text">
+            <img src="./img/pexels-osmany-mederos-16453280.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p>
+        </div>
+        <div class="all-img--text">
+            <img src="./img/pexels-yura-forrat-13280779.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p>
+        </div>
+        <div class="all-img--text"><img src="./img/pexels-hatice-baran-19770768.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p></div>
+        <div class="all-img--text">
+            <img src="./img/pexels-osmany-mederos-16453280.jpg" alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p>
+        </div>
+        <div class="all-img--text">
+            <img src="./img/pexels-josh-hild-13972469.jpg " alt="">
+            <h1>this is img</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, sint. Nulla quam impedit labore totam alias quos sapiente quod sed!</p>
         </div>
     </div>
 </body>
