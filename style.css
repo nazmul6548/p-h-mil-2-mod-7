@@ -67,7 +67,29 @@ header h1 {
   .all-img--text {
     background-color: aquamarine;
   }
+  .all-photo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+  .all-photo img{
+    width: 100%;
+    
+  }
+  .eker-vitor-2{
+     display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .square-collage{
+    display: flex;
+    flex-direction: column;
+  }
 }
+
+
+
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .all-inall {
     display: flex;
